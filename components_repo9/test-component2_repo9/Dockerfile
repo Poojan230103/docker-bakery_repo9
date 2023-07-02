@@ -2,6 +2,7 @@
 
 FROM base_img:1.0
  
-RUN apt-get update 
-RUN apt-get install –y nginx 
+RUN apt-get -y update
+RUN apt-get -y install nginx
 CMD [“echo”,”Image created”] 
+
